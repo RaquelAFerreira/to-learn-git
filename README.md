@@ -1,4 +1,4 @@
-#### antes de mais nada 
+rantes de mais nada 
 # **DON'T PANIC**
 
 
@@ -7,11 +7,11 @@
 
 #### A seguir o output comentado do comando history do meu terminal:
 
-git clone https://github.com/lucascs20182/to-learn-git.git //copia o repositório criado no github
+```git clone https://github.com/lucascs20182/to-learn-git.git``` //copia o repositório criado no github
 
-git status //verifica a situação do versionamento
+```git status``` //verifica a situação do versionamento
 
-git add index.html //adiciona o arquivo para uma espécie de área de preparação
+```git add index.html``` //adiciona o arquivo para uma espécie de área de preparação
 
 git add . //adiciona tudo para staging
 
