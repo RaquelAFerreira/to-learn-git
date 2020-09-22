@@ -3,6 +3,7 @@
 forka, Raquel ヾ(-_- )ゞ 
 
 Output comentado do history do meu terminal:
+
 ```git clone https://github.com/lucascs20182/to-learn-git.git``` //copia o repositório criado no github
 
 ```git status``` //verifica a situação do versionamento
@@ -60,3 +61,19 @@ Output comentado do history do meu terminal:
 ```git branch```
 
 ```git push```
+
+//----------------------------------------------------------------
+
+//gera uma chave ssh
+
+```ssh-keygen``` //caso não queira utilizar pass, apenas dê enter ao ser solicitada
+
+/*
+    será criada uma pasta .ssh no diretório do user logado no seu pc.
+    ex.: /home/nomeDoUsuario no Linux ou C:\users\nomeDoUsuario
+    e dentro dela, no arquivo id_rsa.pub, terá a chave gerada
+    que deverá ser adicionada ao github em settings -> ssh and GPG keys -> new SSH key
+*/
+
+//teste em uma nova pasta
+git clone git@github.com:lucascs20182/to-learn-git.git
