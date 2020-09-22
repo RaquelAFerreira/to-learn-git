@@ -1,8 +1,13 @@
 # **DON'T PANIC**
 
+
 forka, Raquel ヾ(-_- )ゞ 
 
+
 Output comentado do history do meu terminal:
+
+
+#### 1. Commit
 
 ```git clone https://github.com/lucascs20182/to-learn-git.git``` //copia o repositório criado no github
 
@@ -24,7 +29,9 @@ Output comentado do history do meu terminal:
 
 ```git push origin master``` //empurra para o github as alterações da branch master
 
-//----------------------------------------------------------------
+
+
+#### 2. Branch
 
 ```git status```
 
@@ -48,7 +55,9 @@ Output comentado do history do meu terminal:
 
 ```git push origin dev-schedule-component``` //empurra para o github as alterações da branch dev-schedule-component
 
-//----------------------------------------------------------------
+
+
+#### 3. Merge
 
 ```git branch```
 
@@ -62,13 +71,14 @@ Output comentado do history do meu terminal:
 
 ```git push```
 
-//----------------------------------------------------------------
 
-//gerando uma chave ssh
+
+#### 4. SSH
 
 ```ssh-keygen``` //caso não queira utilizar pass, apenas dê enter ao ser solicitada
 
 /*
+
     será criada uma pasta .ssh no diretório do user logado no seu pc.
     
     ex.: /home/nomeDoUsuario no Linux ou C:\users\nomeDoUsuario
@@ -76,7 +86,9 @@ Output comentado do history do meu terminal:
     e dentro dela, no arquivo id_rsa.pub, terá a chave gerada
     
     que deverá ser adicionada ao github em settings -> ssh and GPG keys -> new SSH key
+    
 */
+
 
 //teste em uma nova pasta
 
