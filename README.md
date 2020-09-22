@@ -93,3 +93,20 @@ Output comentado do history do meu terminal:
 //teste em uma nova pasta
 
 ```git clone git@github.com:lucascs20182/to-learn-git.git```
+
+
+
+#### 4. Repos remotos
+
+```git remote -v``` //verifica repositórios remotos; há um repositório que foi adicionado pelo git clone
+
+
+//para adicionar um manualmente
+
+```git remote add rep-learn-git git@github.com:lucascs20182/to-learn-git.git``` //adicionado repositório remoto com nome rep-learn-git
+
+```git push -v rep-learn-git master``` //flag -v para gravar o repo como default e nos próximos pushes apenas dar ```git push```
+
+```git push -v origin master```
+
+```git push```
