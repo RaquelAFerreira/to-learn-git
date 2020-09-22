@@ -106,7 +106,3 @@ Output comentado do history do meu terminal:
 ```git remote add rep-learn-git git@github.com:lucascs20182/to-learn-git.git``` //adicionado repositório remoto com nome rep-learn-git
 
 ```git push -v rep-learn-git master``` //flag -v para gravar o repo como default e nos próximos pushes apenas dar ```git push```
-
-```git push -v origin master```
-
-```git push```
