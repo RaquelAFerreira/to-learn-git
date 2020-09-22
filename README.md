@@ -64,16 +64,22 @@ Output comentado do history do meu terminal:
 
 //----------------------------------------------------------------
 
-//gera uma chave ssh
+//gerando uma chave ssh
 
 ```ssh-keygen``` //caso não queira utilizar pass, apenas dê enter ao ser solicitada
 
 /*
+
     será criada uma pasta .ssh no diretório do user logado no seu pc.
+    
     ex.: /home/nomeDoUsuario no Linux ou C:\users\nomeDoUsuario
+    
     e dentro dela, no arquivo id_rsa.pub, terá a chave gerada
+    
     que deverá ser adicionada ao github em settings -> ssh and GPG keys -> new SSH key
+
 */
 
 //teste em uma nova pasta
+
 git clone git@github.com:lucascs20182/to-learn-git.git
