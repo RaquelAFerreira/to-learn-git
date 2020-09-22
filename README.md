@@ -1,12 +1,8 @@
-antes de mais nada 
 # **DON'T PANIC**
-
 
 forka, Raquel ヾ(-_- )ゞ 
 
-
-A seguir o output comentado do comando history do meu terminal:
-
+Output comentado do history do meu terminal:
 ```git clone https://github.com/lucascs20182/to-learn-git.git``` //copia o repositório criado no github
 
 ```git status``` //verifica a situação do versionamento
@@ -27,9 +23,7 @@ A seguir o output comentado do comando history do meu terminal:
 
 ```git push origin master``` //empurra para o github as alterações da branch master
 
-
-
-
+//----------------------------------------------------------------
 
 ```git status```
 
@@ -52,3 +46,17 @@ A seguir o output comentado do comando history do meu terminal:
 ```git branch -v``` //mostra o último commit realizado
 
 ```git push origin dev-schedule-component``` //empurra para o github as alterações da branch dev-schedule-component
+
+//----------------------------------------------------------------
+
+```git branch```
+
+```git checkout master```
+
+```git merge dev-schedule-component``` //unifica alterações das 2 branches
+
+```git branch -d dev-schedule-component``` //deleta dev-schedule-component
+
+```git branch```
+
+```git push```
