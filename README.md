@@ -132,7 +132,9 @@ Output comentado do history do meu terminal:
 #### 5. Fork
 
 /*
+
     entre num repositório e clique em fork: faz uma cópia do repositório para o seu github
     
     o que possibilita enviar new pull request - solicitação de um merge com o repositório forkado
+    
 */
