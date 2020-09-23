@@ -113,7 +113,7 @@ Output comentado do history do meu terminal:
 
 
 
-#### 4. Repos remotos
+#### 4. Fetch e Pull
 
 ```git fetch origin master``` //cria apontamento com um branch do repo remoto, nesse caso o master
 
@@ -126,3 +126,13 @@ Output comentado do history do meu terminal:
 //commite README.md pelo github para criar atualizações que o repo local não tem
 
 ```git pull origin master``` //baixa atualizações mais recentes do repo remoto p/ repo local e faz merge automaticamente
+
+
+
+#### 5. Fork
+
+/*
+    entre num repositório e clique em fork: faz uma cópia do repositório para o seu github
+    
+    o que possibilita enviar new pull request - solicitação de um merge com o repositório forkado
+*/
