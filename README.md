@@ -110,3 +110,19 @@ Output comentado do history do meu terminal:
 ```git push -v origin master```
 
 ```git push```
+
+
+
+#### 4. Repos remotos
+
+```git fetch origin master``` //cria apontamento com um branch do repo remoto, nesse caso o master
+
+//commite index.html pelo github para criar atualizações que o repo local não tem
+
+```git fetch``` // baixa os commits do repo remoto sem afetar o código local
+
+```git merge origin/master``` //merge com as atualizações recentes do repo remoto
+
+//commite README.md pelo github para criar atualizações que o repo local não tem
+
+```git pull origin master``` //baixa atualizações mais recentes do repo remoto p/ repo local e faz merge automaticamente
